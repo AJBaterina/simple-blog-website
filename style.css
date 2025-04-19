@@ -1,0 +1,160 @@
+body{
+    background-color: #232830;
+    margin: 48px 96px;
+    color: aliceblue;
+}
+
+.header-container{
+    text-align: center;
+    height: 515px;
+    margin-bottom: 9rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+ul, a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 24px;
+    width: 25%;
+}
+
+.landing-image{
+    margin: 24px;
+}
+.title{
+    margin: 16px;
+    font-size: 71px;
+    color: #FF7575;
+    font-weight: 400;
+}
+
+.description{
+    margin: 16px;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.category-list{
+    display: flex;
+    justify-content: space-around;
+    border-top: #909090 solid 1px;
+}
+
+.list-icons{
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+}
+
+.list-icons > img{
+    align-self: center;
+}
+
+list > a {
+    font-style: italic;
+    justify-content: center;
+    font-size: 27px;
+    color: #909090;
+}
+
+.article-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 72px 35px;
+    gap: 32px;
+    color: #252930
+}
+
+card{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 22px;
+    padding: 32px;
+}
+
+.card-title{
+    height: 58px;
+}
+
+.card-description{
+    height: 55px;
+}
+
+.date-category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-pagination{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.pagination-container{
+    display: flex;
+    width: 300px;
+    align-self: center;
+    justify-content: space-between;
+
+}
+
+.pagination-container > a{
+    display: flex;
+    justify-content: center;
+    color: #909090;
+}
+
+button{
+    background: none;
+    color: #909090;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #909090 solid 1px;
+    margin-top: 150px;
+}
+
+.footer-container-right{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.footer-container-left{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.footer-container-left > img{
+    align-self: center;
+}
+
+.developer{
+    align-self: center;
+}
+
+
+
+
